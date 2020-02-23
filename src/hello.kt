@@ -1,3 +1,6 @@
+package sorter
+
+
 fun concat(a:String ="g",b:Int):String{
 
     return a + b.toString() ;
@@ -29,15 +32,20 @@ fun main(){
     }
     println(concat(b=8)) ;
     println(fn(8))
+    println("====================")
 
-    println("=======================")
-    print("Enter value1: ")
-    var v1 = readLine()!!.toInt() ;
-    print("Enter value2: ")
-    val v2 = readLine()!!.toInt() ;
+   val arr = arrayOf(5,8,98,8,77,9)
+    val intArray = intArrayOf(4, 88,3, 2, 1)
 
+    val sorter = ArraySorter() ;
+     sorter.sort(arr)
+    sorter.sort(intArray)
 
-    println(add(v1,v2))
-    println(sub(v1,v2))
+    for(i in arr){
+        println(i)
+    }
+    for(i in intArray){
+        println(i)
+    }
 
 }

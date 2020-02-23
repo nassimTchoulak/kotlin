@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676088af-67d7-49a9-b1d5-2c7d5728533e" name="Default Changelist" comment="" />
+    <list default="true" id="676088af-67d7-49a9-b1d5-2c7d5728533e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sorter/ArraySorter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/HelloKt$main$fn$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/HelloKt$main$sub$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/HelloKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/META-INF/project kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project kotlin/META-INF/project kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/My.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/etudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +21,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YCzrIUxyP2DCojqObAeMxAt9Wo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -36,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.sorter.HelloKt">
     <configuration name="HelloKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="project kotlin" />
       <option name="VM_PARAMETERS" />
@@ -58,6 +72,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorter.HelloKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="project kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sorter.HelloKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.sorter.HelloKt" />
         <item itemvalue="Kotlin.HelloKt" />
       </list>
     </recent_temporary>
@@ -113,11 +141,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582461561347</updated>
-      <workItem from="1582461565409" duration="3608000" />
+      <workItem from="1582461565409" duration="4743000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
