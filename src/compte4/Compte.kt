@@ -26,5 +26,11 @@ abstract class Compte( numero:String, solde:Double){
 
     abstract fun calculerCommission():Double
 
+    fun faireCommission(){
+        println(" the number $_numero has $_solde")
+        println(" his commission is ${this.calculerCommission()}")
+        _solde -= _solde * calculerCommission();
+        println(" his sold is $_solde ")
+    }
 
 }

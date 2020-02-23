@@ -1,5 +1,5 @@
-package sorter
-
+import  sorter.*
+import compte4.*
 
 fun concat(a:String ="g",b:Int):String{
 
@@ -34,18 +34,16 @@ fun main(){
     println(fn(8))
     println("====================")
 
-   val arr = arrayOf(5,8,98,8,77,9)
-    val intArray = intArrayOf(4, 88,3, 2, 1)
+    var compte1:Compte = CompteEpargne(2000.0,"777774")
+    var compte2:Compte = CompteEpargneVip(2000.0,"12345")
+    var compte3:Compte = CompteDevise(2000.0,"12346588",1.5)
 
-    val sorter = ArraySorter() ;
-     sorter.sort(arr)
-    sorter.sort(intArray)
+    var arr12  = listOf(compte1,compte2, compte3)
 
-    for(i in arr){
-        println(i)
+    for(i in arr12){
+        i.faireCommission()
+        println("")
     }
-    for(i in intArray){
-        println(i)
-    }
+
 
 }
