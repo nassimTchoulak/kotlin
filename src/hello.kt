@@ -40,10 +40,13 @@ fun main(){
 
     var arr12  = listOf(compte1,compte2, compte3)
 
+    var total = 0;
     for(i in arr12){
+        total += i.calculerCommissionToTake() ;
         i.faireCommission()
         println("")
     }
+    println(" le total des commissions est $total")
 
 
 }

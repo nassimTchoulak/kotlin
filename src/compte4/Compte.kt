@@ -23,6 +23,9 @@ abstract class Compte( numero:String, solde:Double){
         this.solde = solde
     }
 
+     fun calculerCommissionToTake():Int{
+         return (_solde*calculerCommission()).toInt()
+     }
 
     abstract fun calculerCommission():Double
 
