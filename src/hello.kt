@@ -37,7 +37,7 @@ fun main(){
     val v2 = readLine()!!.toInt() ;
 
 
-    println(add(v1,v2))
-    println(sub(v1,v2))
+    println("result is ${add(v1,v2)}")
+    println("result is ${sub(v1,v2)}")
 
 }
