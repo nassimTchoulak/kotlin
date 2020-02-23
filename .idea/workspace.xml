@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676088af-67d7-49a9-b1d5-2c7d5728533e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sorter/ArraySorter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compte4/Compte.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/HelloKt$main$fn$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/HelloKt$main$sub$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/HelloKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/META-INF/project kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project kotlin/META-INF/project kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/My.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project kotlin/etudy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582461561347</updated>
-      <workItem from="1582461565409" duration="4743000" />
+      <workItem from="1582461565409" duration="6350000" />
     </task>
     <servers />
   </component>
