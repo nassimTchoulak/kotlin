@@ -36,15 +36,25 @@ fun main(){
 
    val arr = arrayOf(5,8,98,8,77,9)
     val intArray = intArrayOf(4, 88,3, 2, 1)
+    val manual = intArrayOf(4, 88,3, 2, 1,8,7,45,123)
+
+
 
     val sorter = ArraySorter() ;
      sorter.sort(arr)
     sorter.sort(intArray)
 
+    sorter.manualSort(manual)
+
     for(i in arr){
         println(i)
     }
     for(i in intArray){
+        println(i)
+    }
+    println("====================")
+
+    for(i in manual){
         println(i)
     }
 
